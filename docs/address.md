@@ -12,7 +12,7 @@ the class `address` has the following fields as its private members;
     string line1, line2;
     string city;
     string state;
-    string pinCode;
+    string pinCode; 
     string country;
 ```
 

@@ -5,20 +5,19 @@ using namespace std;
 
 #include "./person.hh"
 
-class nurse : public person
-{
+class nurse : public person {
 private:
-    string type;
+  string type;
 
 public:
-    nurse();
-    void fillMap();
-    void saveMap();
-    void addPerson();
-    void printDetails();
-    void printDetailsFromHistory(string extraDetails = "");
-    void getDetails(int rec = 0);
-    void getDetailsFromHistory();
-    void removePerson();
+  nurse();
+  void fillMap();
+  void saveMap();
+  void addPerson();
+  void printDetails();
+  void printDetailsFromHistory(string extraDetails = "");
+  void getDetails(int rec = 0);
+  void getDetailsFromHistory();
+  void removePerson();
 };
 #endif // !NURSE

@@ -3,20 +3,19 @@
 using namespace std;
 #include <string>
 
-class address
-{
+class address {
 private:
-    string line1, line2;
-    string city;
-    string state;
-    string pinCode;
-    string country;
+  string line1, line2;
+  string city;
+  string state;
+  string pinCode;
+  string country;
 
 public:
-    address();
-    void takeInput();
-    void print();
-    string addToStr();
-    void strToAdd(string str);
+  address();
+  void takeInput();
+  void print();
+  string addToStr();
+  void strToAdd(string str);
 };
 #endif // !ADDRESS
