@@ -67,4 +67,4 @@ This repository does not currently include a license. Please consider adding a L
 GitHub Docs
 
 ## Contact
-For questions or feedback, reach out to Vishesh Nagar at nagarvishesh16@gmail.com.
+For questions or feedback, reach out at nagarvishesh16@gmail.com.
